@@ -55,12 +55,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            app:endIconMode="clear_text">
+            app:endIconMode="clear_text"
+            app:boxBackgroundMode="none">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/text_search_icon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"/>
+                android:inputType="text"
+                android:background="@null"/>
         </com.google.android.material.textfield.TextInputLayout>
         <com.hyz.hex.ui.views.IconRecyclerView
             android:id="@+id/list_icons"
