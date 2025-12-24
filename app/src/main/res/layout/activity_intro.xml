@@ -27,7 +27,7 @@
         app:iconPadding="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        style="@style/Widget.Material3.Button.IconButton.Filled.Tonal" />
+        style="@style/Widget.Material3.Button.IconButton" />
     <com.hyz.hex.ui.intro.SlideIndicator
         android:id="@+id/slideIndicator"
         android:layout_width="0dp"
@@ -48,5 +48,5 @@
         app:iconPadding="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        style="@style/Widget.Material3.Button.IconButton.Filled.Tonal" />
+        style="@style/Widget.Material3.Button.IconButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
