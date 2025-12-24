@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Telegram Dark -->
+    <color name="md_theme_dark_primary">#2A8BF2</color>
+    <color name="md_theme_dark_onPrimary">#FFFFFF</color>
+    <color name="md_theme_dark_background">#1A1A1A</color>
+    <color name="md_theme_dark_onBackground">#FFFFFF</color>
+    <color name="md_theme_dark_surface">#1F1F1F</color>
+    <color name="md_theme_dark_onSurface">#FFFFFF</color>
+    <color name="md_theme_dark_surfaceVariant">#2B2B2B</color>
+    <color name="md_theme_dark_onSurfaceVariant">#A0A0A0</color>
+</resources>
