@@ -59,15 +59,20 @@
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
     </LinearLayout>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <com.google.android.material.button.MaterialButton
     android:id="@+id/fab"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
     android:layout_gravity="bottom|end"
     android:layout_margin="@dimen/fab_margin"
-    android:src="@drawable/ic_outline_add_24"
+
+    app:icon="@drawable/ic_outline_add_24"
+    app:iconSize="24dp"
+    app:iconPadding="0dp"
+
+    android:background="@android:color/transparent"
     app:backgroundTint="@android:color/transparent"
     app:rippleColor="@android:color/transparent"
-    app:borderWidth="0dp"
-    app:elevation="0dp" />
+
+    style="@style/Widget.Material3.Button.IconButton" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
