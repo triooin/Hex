@@ -187,8 +187,7 @@ public class GroupManagerActivity extends HexActivity implements GroupAdapter.Li
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_groups, menu);
-        return true;
+        return false;
     }
 
     @Override
