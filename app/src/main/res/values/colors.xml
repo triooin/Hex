@@ -29,7 +29,7 @@
     <color name="md_theme_light_onTertiaryFixedVariant">#000000</color>
 
     <color name="md_theme_light_error">#000000</color>
-    <color name="md_theme_light_errorContainer">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">@android:color/transparent</color>
     <color name="md_theme_light_onError">#FFFFFF</color>
     <color name="md_theme_light_onErrorContainer">#000000</color>
 
@@ -90,7 +90,8 @@
     <color name="md_theme_dark_onTertiaryFixedVariant">#FFFFFF</color>
 
     <color name="md_theme_dark_error">#FFFFFF</color>
-    <color name="md_theme_dark_errorContainer">#000000</color>
+    <!-- remove black pill background -->
+<color name="md_theme_dark_errorContainer">@android:color/transparent</color>
     <color name="md_theme_dark_onError">#000000</color>
     <color name="md_theme_dark_onErrorContainer">#FFFFFF</color>
 
