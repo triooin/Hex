@@ -65,7 +65,7 @@
     android:backgroundTint="@android:color/transparent"
     app:rippleColor="@android:color/transparent"
     app:strokeWidth="0dp"
-    android:elevation="0dp"/>
+    android:elevation="0dp">
     </com.google.android.material.button.MaterialButton>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
