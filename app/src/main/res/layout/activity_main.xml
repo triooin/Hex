@@ -70,10 +70,10 @@
     android:background="@android:color/transparent"
     android:foreground="@null"
     android:stateListAnimator="@null"
-    android:elevation="0dp"
 
     app:backgroundTint="@android:color/transparent"
     app:rippleColor="@android:color/transparent"
     app:borderWidth="0dp"
-    app:useCompatPadding="false" />
+    app:useCompatPadding="false"
+    app:elevation="0dp" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
