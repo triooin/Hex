@@ -7,9 +7,14 @@
     android:paddingEnd="20dp"
     android:paddingTop="20dp">
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/text_input_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    android:id="@+id/text_input_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:boxBackgroundMode="outline"
+    app:boxStrokeColor="@color/md_theme_dark_onSurface"
+    app:hintTextColor="@color/md_theme_dark_onSurface"
+    app:boxStrokeWidth="1dp"
+    app:boxStrokeWidthFocused="1dp">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/text_input"
             android:layout_width="match_parent"
