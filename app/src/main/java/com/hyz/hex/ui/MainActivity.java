@@ -74,7 +74,7 @@ import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
 import com.google.android.material.color.MaterialColors;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.common.base.Strings;
@@ -226,7 +226,7 @@ public class MainActivity extends HexActivity implements EntryListView.Listener 
         _entryListView.setSearchBehaviorMask(_prefs.getSearchBehaviorMask());
         _prefGroupFilter = _prefs.getGroupFilter();
 
-         FloatingActionButton fab = findViewById(R.id.fab);
+         MaterialButton fab = findViewById(R.id.fab);
          fab.setOnClickListener(v -> {
              View view = getLayoutInflater().inflate(R.layout.dialog_add_entry, null);
              BottomSheetDialog dialog = new BottomSheetDialog(this);
