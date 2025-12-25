@@ -34,7 +34,7 @@ import com.hyz.hex.ui.tasks.ImportIconPackTask;
 import com.hyz.hex.ui.views.IconPackAdapter;
 import com.hyz.hex.vault.VaultManager;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.button.MaterialButton;
 
 import javax.inject.Inject;
 
@@ -67,7 +67,7 @@ public class IconPacksManagerFragment extends Fragment implements IconPackAdapte
 
     @Override
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
-        FloatingActionButton fab = view.findViewById(R.id.fab);
+        MaterialButton fab = view.findViewById(R.id.fab);
         fab.setOnClickListener(v -> startImportIconPack());
         _fabScrollHelper = new FabScrollHelper(fab);
 
