@@ -1,98 +1,92 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
 
-    <!-- LIGHT -->
+    <!-- ================= LIGHT ================= -->
+
     <color name="md_theme_light_primary">#000000</color>
     <color name="md_theme_light_onPrimary">#FFFFFF</color>
-    <color name="md_theme_light_primaryContainer">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#E5E5E5</color>
     <color name="md_theme_light_onPrimaryContainer">#000000</color>
-    <color name="md_theme_light_primaryFixed">#FFFFFF</color>
+    <color name="md_theme_light_primaryFixed">#F0F0F0</color>
     <color name="md_theme_light_onPrimaryFixed">#000000</color>
-    <color name="md_theme_light_primaryFixedDim">#F2F2F2</color>
+    <color name="md_theme_light_primaryFixedDim">#D6D6D6</color>
     <color name="md_theme_light_onPrimaryFixedVariant">#000000</color>
 
-    <color name="md_theme_light_secondary">#000000</color>
+    <color name="md_theme_light_secondary">#333333</color>
     <color name="md_theme_light_onSecondary">#FFFFFF</color>
-    <color name="md_theme_light_secondaryContainer">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#E0E0E0</color>
     <color name="md_theme_light_onSecondaryContainer">#000000</color>
-    <color name="md_theme_light_secondaryFixed">#FFFFFF</color>
+    <color name="md_theme_light_secondaryFixed">#F2F2F2</color>
     <color name="md_theme_light_onSecondaryFixed">#000000</color>
-    <color name="md_theme_light_secondaryFixedDim">#F2F2F2</color>
+    <color name="md_theme_light_secondaryFixedDim">#DADADA</color>
     <color name="md_theme_light_onSecondaryFixedVariant">#000000</color>
 
-    <color name="md_theme_light_tertiary">#000000</color>
+    <color name="md_theme_light_tertiary">#555555</color>
     <color name="md_theme_light_onTertiary">#FFFFFF</color>
-    <color name="md_theme_light_tertiaryContainer">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#EAEAEA</color>
     <color name="md_theme_light_onTertiaryContainer">#000000</color>
-    <color name="md_theme_light_tertiaryFixed">#FFFFFF</color>
-    <color name="md_theme_light_onTertiaryFixed">#000000</color>
-    <color name="md_theme_light_tertiaryFixedDim">#F2F2F2</color>
-    <color name="md_theme_light_onTertiaryFixedVariant">#000000</color>
 
     <color name="md_theme_light_error">#000000</color>
-    <color name="md_theme_light_errorContainer">@android:color/transparent</color>
     <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">#E0E0E0</color>
     <color name="md_theme_light_onErrorContainer">#000000</color>
 
     <color name="md_theme_light_background">#FFFFFF</color>
     <color name="md_theme_light_onBackground">#000000</color>
-    <color name="md_theme_light_outline">#DDDDDD</color>
-    <color name="md_theme_light_inverseOnSurface">#000000</color>
-    <color name="md_theme_light_inverseSurface">#FFFFFF</color>
-    <color name="md_theme_light_inversePrimary">#000000</color>
-    <color name="md_theme_light_shadow">#000000</color>
-    <color name="md_theme_light_surfaceTint">#000000</color>
-    <color name="md_theme_light_outlineVariant">#DDDDDD</color>
-    <color name="md_theme_light_scrim">#000000</color>
 
     <color name="md_theme_light_surface">#FFFFFF</color>
     <color name="md_theme_light_onSurface">#000000</color>
-    <color name="md_theme_light_surfaceVariant">#F5F5F5</color>
-    <color name="md_theme_light_onSurfaceVariant">#000000</color>
+    <color name="md_theme_light_surfaceVariant">#F2F2F2</color>
+    <color name="md_theme_light_onSurfaceVariant">#333333</color>
 
-    <color name="md_theme_light_surfaceContainerHighest">#FFFFFF</color>
-    <color name="md_theme_light_surfaceContainerHigh">#FFFFFF</color>
-    <color name="md_theme_light_surfaceContainer">#FFFFFF</color>
-    <color name="md_theme_light_surfaceContainerLow">#FFFFFF</color>
     <color name="md_theme_light_surfaceContainerLowest">#FFFFFF</color>
-    <color name="md_theme_light_surfaceDim">#F2F2F2</color>
+    <color name="md_theme_light_surfaceContainerLow">#FAFAFA</color>
+    <color name="md_theme_light_surfaceContainer">#F4F4F4</color>
+    <color name="md_theme_light_surfaceContainerHigh">#EEEEEE</color>
+    <color name="md_theme_light_surfaceContainerHighest">#E6E6E6</color>
+
+    <color name="md_theme_light_surfaceDim">#E0E0E0</color>
     <color name="md_theme_light_surfaceBright">#FFFFFF</color>
 
-<!-- DARK -->
+    <color name="md_theme_light_outline">#BDBDBD</color>
+    <color name="md_theme_light_outlineVariant">#DADADA</color>
+
+    <color name="md_theme_light_inverseSurface">#121212</color>
+    <color name="md_theme_light_inverseOnSurface">#FFFFFF</color>
+    <color name="md_theme_light_inversePrimary">#FFFFFF</color>
+
+    <color name="md_theme_light_shadow">#000000</color>
+    <color name="md_theme_light_scrim">#000000</color>
+    <color name="md_theme_light_surfaceTint">#000000</color>
+
+
+    <!-- ================= DARK ================= -->
 
     <color name="md_theme_dark_primary">#FFFFFF</color>
     <color name="md_theme_dark_onPrimary">#000000</color>
-    <color name="md_theme_dark_primaryContainer">#000000</color>
+    <color name="md_theme_dark_primaryContainer">#2A2A2A</color>
     <color name="md_theme_dark_onPrimaryContainer">#FFFFFF</color>
-
-    <color name="md_theme_dark_secondary">#FFFFFF</color>
-    <color name="md_theme_dark_onSecondary">#000000</color>
-    <color name="md_theme_dark_secondaryContainer">#000000</color>
-    <color name="md_theme_dark_onSecondaryContainer">#FFFFFF</color>
-
-    <color name="md_theme_dark_tertiary">#FFFFFF</color>
-    <color name="md_theme_dark_onTertiary">#000000</color>
-    <color name="md_theme_dark_tertiaryContainer">#000000</color>
-    <color name="md_theme_dark_onTertiaryContainer">#FFFFFF</color>
-
-    <color name="md_theme_dark_primaryFixed">#000000</color>
+    <color name="md_theme_dark_primaryFixed">#1C1C1C</color>
     <color name="md_theme_dark_onPrimaryFixed">#FFFFFF</color>
-    <color name="md_theme_dark_primaryFixedDim">#111111</color>
+    <color name="md_theme_dark_primaryFixedDim">#141414</color>
     <color name="md_theme_dark_onPrimaryFixedVariant">#FFFFFF</color>
 
-    <color name="md_theme_dark_secondaryFixed">#000000</color>
+    <color name="md_theme_dark_secondary">#DDDDDD</color>
+    <color name="md_theme_dark_onSecondary">#000000</color>
+    <color name="md_theme_dark_secondaryContainer">#303030</color>
+    <color name="md_theme_dark_onSecondaryContainer">#FFFFFF</color>
+    <color name="md_theme_dark_secondaryFixed">#222222</color>
     <color name="md_theme_dark_onSecondaryFixed">#FFFFFF</color>
-    <color name="md_theme_dark_secondaryFixedDim">#111111</color>
+    <color name="md_theme_dark_secondaryFixedDim">#181818</color>
     <color name="md_theme_dark_onSecondaryFixedVariant">#FFFFFF</color>
 
-    <color name="md_theme_dark_tertiaryFixed">#000000</color>
-    <color name="md_theme_dark_onTertiaryFixed">#FFFFFF</color>
-    <color name="md_theme_dark_tertiaryFixedDim">#111111</color>
-    <color name="md_theme_dark_onTertiaryFixedVariant">#FFFFFF</color>
+    <color name="md_theme_dark_tertiary">#BBBBBB</color>
+    <color name="md_theme_dark_onTertiary">#000000</color>
+    <color name="md_theme_dark_tertiaryContainer">#2C2C2C</color>
+    <color name="md_theme_dark_onTertiaryContainer">#FFFFFF</color>
 
     <color name="md_theme_dark_error">#FFFFFF</color>
-    <!-- remove black pill background -->
-<color name="md_theme_dark_errorContainer">@android:color/transparent</color>
     <color name="md_theme_dark_onError">#000000</color>
+    <color name="md_theme_dark_errorContainer">#2A2A2A</color>
     <color name="md_theme_dark_onErrorContainer">#FFFFFF</color>
 
     <color name="md_theme_dark_background">#000000</color>
@@ -100,40 +94,38 @@
 
     <color name="md_theme_dark_surface">#000000</color>
     <color name="md_theme_dark_onSurface">#FFFFFF</color>
+    <color name="md_theme_dark_surfaceVariant">#1A1A1A</color>
+    <color name="md_theme_dark_onSurfaceVariant">#DDDDDD</color>
 
-    <color name="md_theme_dark_surfaceVariant">#111111</color>
-    <color name="md_theme_dark_onSurfaceVariant">#FFFFFF</color>
+    <color name="md_theme_dark_surfaceContainerLowest">#000000</color>
+    <color name="md_theme_dark_surfaceContainerLow">#0F0F0F</color>
+    <color name="md_theme_dark_surfaceContainer">#141414</color>
+    <color name="md_theme_dark_surfaceContainerHigh">#1C1C1C</color>
+    <color name="md_theme_dark_surfaceContainerHighest">#242424</color>
+
+    <color name="md_theme_dark_surfaceDim">#000000</color>
+    <color name="md_theme_dark_surfaceBright">#2A2A2A</color>
 
     <color name="md_theme_dark_outline">#444444</color>
-    <color name="md_theme_dark_outlineVariant">#333333</color>
+    <color name="md_theme_dark_outlineVariant">#2A2A2A</color>
 
-    <color name="md_theme_dark_inverseOnSurface">#000000</color>
     <color name="md_theme_dark_inverseSurface">#FFFFFF</color>
-    <color name="md_theme_dark_inversePrimary">#FFFFFF</color>
+    <color name="md_theme_dark_inverseOnSurface">#000000</color>
+    <color name="md_theme_dark_inversePrimary">#000000</color>
 
     <color name="md_theme_dark_shadow">#000000</color>
     <color name="md_theme_dark_scrim">#000000</color>
-
-    <!-- VERY important to remove blue focus/outline -->
     <color name="md_theme_dark_surfaceTint">#FFFFFF</color>
 
-    <color name="md_theme_dark_surfaceContainerHighest">#111111</color>
-    <color name="md_theme_dark_surfaceContainerHigh">#0F0F0F</color>
-    <color name="md_theme_dark_surfaceContainer">#0D0D0D</color>
-    <color name="md_theme_dark_surfaceContainerLow">#0B0B0B</color>
-    <color name="md_theme_dark_surfaceContainerLowest">#000000</color>
-    <color name="md_theme_dark_surfaceDim">#000000</color>
-    <color name="md_theme_dark_surfaceBright">#1A1A1A</color>
 
-    <!-- Custom (kept, but B/W themed) -->
-    <color name="hex_theme_all_favorite">#FFFFFF</color>
+    <!-- ========= CUSTOM / EXISTING ========= -->
 
-    <color name="hex_theme_light_success">#000000</color>
-    <color name="hex_theme_dark_success">#FFFFFF</color>
+    <color name="hex_theme_all_favorite">#888888</color>
+    <color name="hex_theme_light_success">#666666</color>
+    <color name="hex_theme_dark_success">#AAAAAA</color>
+    <color name="hex_theme_light_onSurfaceDim">#777777</color>
+    <color name="hex_theme_dark_onSurfaceDim">#999999</color>
 
-    <color name="hex_theme_light_onSurfaceDim">#000000</color>
-    <color name="hex_theme_dark_onSurfaceDim">#FFFFFF</color>
-    
     <!-- Status bar hacks -->
     <color name="abc_decor_view_status_guard_light" tools:override="true">@android:color/transparent</color>
     <color name="abc_decor_view_status_guard" tools:override="true">@android:color/transparent</color>
