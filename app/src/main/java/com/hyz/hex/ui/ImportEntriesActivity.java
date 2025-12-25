@@ -33,7 +33,7 @@ import com.hyz.hex.vault.VaultEntryIcon;
 import com.hyz.hex.vault.VaultGroup;
 import com.hyz.hex.vault.VaultRepository;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.io.File;
