@@ -33,5 +33,20 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        android:src="@drawable/ic_outline_check_24" />
+        android:src="@drawable/ic_outline_check_24"
+        app:iconSize="24dp"
+    app:iconPadding="0dp"
+
+    style="@style/Widget.Material3.Button.IconButton"
+    android:background="@android:color/transparent"
+    app:backgroundTint="@android:color/transparent"
+    app:rippleColor="@android:color/transparent"
+    app:strokeWidth="0dp"
+
+    android:elevation="0dp"
+    app:stateListAnimator="@null"
+    app:insetLeft="0dp"
+    app:insetRight="0dp"
+    app:insetTop="0dp"
+    app:insetBottom="0dp" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
