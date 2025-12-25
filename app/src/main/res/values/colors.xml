@@ -126,25 +126,7 @@
     <color name="md_theme_dark_surfaceTint">#FFFFFF</color>
 
 
-    <!-- ================= TEXT HELPERS ================= -->
-
-    <color name="text_primary_light">#000000</color>
-    <color name="text_secondary_light">#444444</color>
-    <color name="text_hint_light">#777777</color>
-    <color name="text_disabled_light">#AAAAAA</color>
-
-    <color name="text_primary_dark">#FFFFFF</color>
-    <color name="text_secondary_dark">#CCCCCC</color>
-    <color name="text_hint_dark">#999999</color>
-    <color name="text_disabled_dark">#666666</color>
-
-    <color name="text_primary">@color/text_primary_light</color>
-    <color name="text_secondary">@color/text_secondary_light</color>
-    <color name="text_hint">@color/text_hint_light</color>
-    <color name="text_disabled">@color/text_disabled_light</color>
-
-
-    <!-- ================= CUSTOM / EXISTING ================= -->
+    <!-- ================= CUSTOM USED BY THEMES ================= -->
 
     <color name="hex_theme_all_favorite">#888888</color>
     <color name="hex_theme_light_success">#666666</color>
