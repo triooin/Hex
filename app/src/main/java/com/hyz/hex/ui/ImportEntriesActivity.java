@@ -394,11 +394,9 @@ public class ImportEntriesActivity extends HexActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        _menu = menu;
-        getMenuInflater().inflate(R.menu.menu_import_entries, _menu);
-        return true;
-    }
+public boolean onCreateOptionsMenu(Menu menu) {
+    return false;
+}
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
