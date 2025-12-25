@@ -123,6 +123,16 @@
     <color name="md_theme_dark_surfaceContainerLowest">#000000</color>
     <color name="md_theme_dark_surfaceDim">#000000</color>
     <color name="md_theme_dark_surfaceBright">#1A1A1A</color>
+
+    <!-- Custom (kept, but B/W themed) -->
+    <color name="hex_theme_all_favorite">#FFFFFF</color>
+
+    <color name="hex_theme_light_success">#000000</color>
+    <color name="hex_theme_dark_success">#FFFFFF</color>
+
+    <color name="hex_theme_light_onSurfaceDim">#000000</color>
+    <color name="hex_theme_dark_onSurfaceDim">#FFFFFF</color>
+    
     <!-- Status bar hacks -->
     <color name="abc_decor_view_status_guard_light" tools:override="true">@android:color/transparent</color>
     <color name="abc_decor_view_status_guard" tools:override="true">@android:color/transparent</color>
