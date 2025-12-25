@@ -89,7 +89,7 @@ public class ImportEntriesActivity extends HexActivity {
         _entriesView.setAdapter(_adapter);
         _entriesView.setNestedScrollingEnabled(false);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
+        MaterialButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(v -> {
             if (_vaultManager.getVault().getEntries().size() > 0
                     && _menu.findItem(R.id.toggle_wipe_vault).isChecked()) {
